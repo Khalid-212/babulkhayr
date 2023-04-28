@@ -1,0 +1,124 @@
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  padding: 2rem;
+  text-align: center;
+}
+.header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid rebeccapurple; */
+  
+}
+.header_Right{
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 2rem; */
+  /* border: 1px solid rebeccapurple; */
+  gap: 5rem;
+}
+
+.logo {
+  /* height: 6em; */
+  /* padding: 1.5em; */
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+.logo_img{
+  width: 100px;
+  height: 100px;
+}
+
+
+.banner{
+  /* border: 1px solid rebeccapurple; */
+  /* height: 85vh; */
+  margin: 5rem 0;
+
+}
+.bannerText{
+  font-size: 5rem;
+  /* width: 100rem; */
+}
+
+.form{
+  border: 1px solid gray;
+  width: max-content;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.fields > form{
+  display: flex;
+  flex-direction: column;
+  /* padding: 5rem; */
+  gap: 1rem;
+}
+.fields > form >.flex > input{
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  background: transparent !important;
+}
+.fields > form >.flex > input:focus{
+  border: 1px solid #646cff;
+}
+.fields > form >.flex > input::placeholder{
+  color: white;
+}
+.fields > form >.flex > input:focus::placeholder{
+  color: transparent;
+}
+
+.flex{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+/* change the color of first span inside flex to red*/
+.last > span{
+  /* padding-right: 1rem; */
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 60vh;
+  flex-direction: column;
+}
+.links{
+  text-decoration: none;
+  color: rgb(237, 237, 237);
+  font-size: 1.5rem;
+}
+.links:hover{
+  color: white;
+}
